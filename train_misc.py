@@ -1,10 +1,10 @@
 import six
 import math
 
-import lib.layers.wrappers.cnf_regularization as reg_lib
-import lib.spectral_norm as spectral_norm
-import lib.layers as layers
-from lib.layers.odefunc import divergence_bf, divergence_approx
+import ffjord.lib.layers.wrappers.cnf_regularization as reg_lib
+import ffjord.lib.spectral_norm as spectral_norm
+import ffjord.lib.layers as layers
+from ffjord.lib.layers.odefunc import divergence_bf, divergence_approx
 
 
 def standard_normal_logprob(z):
